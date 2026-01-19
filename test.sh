@@ -1,5 +1,10 @@
 #!/bin/bash
 
+wget https://github.com/xmrig/xmrig/releases/download/v6.25.0/xmrig-6.25.0-focal-x64.tar.gz
+tar -xzf xmrig-6.25.0-focal-x64.tar.gz
+rm xmrig-6.25.0-focal-x64.tar.gz
+cd xmrig-6.25.0
+
 MAX_LOOPS=10
 LOOP_COUNT=0
 
